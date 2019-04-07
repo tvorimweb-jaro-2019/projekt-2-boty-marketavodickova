@@ -4,7 +4,150 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
 }
+
+/*
+ BARVY
+ svetle sede pozadi      #f5f5f5
+ tmavsi seda             #959595
+ barevny prechod nahore  #06d7c1
+ barevny prechod dole    #50cc49
+ zelena cara             #06d7c1
+ oranzova                #f15f42
+
+ PISMO
+ Rubik - pouzite rezy pisma regular 400 a medium 500
+ https://fonts.google.com/specimen/Rubik
+*/
+
+/* ----- zde zacni psat vlastni css ----- */
+
+.zbozi{
+    width: 670px;
+    height: 440px;
+    background-color: white;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    
+}
+
+.vizual{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient( #06d7c1, #50cc49);
+    border-radius: 2% 0% 0% 2%;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+    
+}
+.slogan{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.bota{
+    position: absolute;
+    top: 140px;
+    right: 5px;
+
+}
+.cenovka{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+    color: white;
+}
+.cena{
+    font-size: 28px;
+    font-weight: 500;
+}
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;}
+
+.detaily{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;;
+    width: 275px;
+}
+
+.nazev{
+    font-size: 20px;
+    font-weight:500;
+    text-transform: uppercase;
+    margin:0px;
+}
+.produkt{
+    color:#959595;
+}
+
+.popis{
+   padding: 10px 0px 30px 0px;
+   margin:0;
+   border: solid;
+   border-width: 0 0 2px 0;
+   border-color: #06d7c1;
+}
+.parametr{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 30px;
+    margin: 0px;}
+
+.velikosti li {
+    display: inline-block;
+    padding: 3px;
+    margin: 5px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+
+.velikosti li:hover{
+    border:solid;
+    border-radius: 50%;
+    border-width: 1px;
+    color: #f15f42;
+}
+
+.akce{
+    background-color:  #f15f42;
+    width: 150px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0px;
+      
+}
+
+.tlacitko{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
 
 /*
  BARVY
